@@ -1,11 +1,18 @@
 Must-Have (A):
 
-RA001 : 
+RA001 : There should be a main menu.
+RA001a : The main menu should contain a "Start Button", which loades the main scene on click.
+RA001b : The main menu should contain an "Exit Button", which terminates the game on click.
+RA001 : The Player character, represented by a tank, must be displayed on screen.
+RA002 : 
+RA003 : The Player has to be able to move by using WASD.
+RA003 : 
 
 Should-Be (B):
 
 RB101 : Every implemented requirement must be blackbox-tested with a corresponding test-document(ation).
-RB102 : 
+RB002 : The main menu should contain an "Options Button", which opens the options menu on click. (Requires RA001)
+RB002a : 
 
 Nice-To-Have (C):
 
