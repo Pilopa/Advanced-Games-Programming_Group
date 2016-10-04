@@ -3,17 +3,20 @@ Must-Have (A):
 RA001 : There should be a main menu.
 RA001a : The main menu should contain a "Start Button", which loades the main scene on click.
 RA001b : The main menu should contain an "Exit Button", which terminates the game on click.
-RA001 : The Player character, represented by a tank, must be displayed on screen.
-RA002 : 
-RA003 : The Player has to be able to move by using WASD.
-RA003 : 
+RA002 : There is an environment for the player to drive around.
+RA003 : The Player character, represented by a tank, is being displayed on screen.
+RA004 : The Player has to be able to move by using WASD.
+RA005 : The Player is able to shoot by pressing Spacebar. 
+RA006 : The game should have some sort of physics (eg. The bullet flys in a realistic way, the Player falls into holes).
+RA007 : The game should have some sort of coolision detection (eg. The bullet collides with enemies and explodes)
 
 Should-Be (B):
 
 RB101 : Every implemented requirement must be blackbox-tested with a corresponding test-document(ation).
 RB002 : The main menu should contain an "Options Button", which opens the options menu on click. (Requires RA001)
-RB002a : 
+RB002a : The volume should be able to be changed.
 
 Nice-To-Have (C):
 
-RC201
+RC201 : The bullet have an explosion effect on impact.
+RC202 : The tank canon should emit a particle effect each time it shoots.
