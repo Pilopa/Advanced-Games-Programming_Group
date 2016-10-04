@@ -4,7 +4,7 @@ RA001 :
 
 Should-Be (B):
 
-RB101 : The core functions which form the implementation of the game must be unit-tested.
+RB101 : Every implemented requirement must be blackbox-tested with a corresponding test-document(ation).
 RB102 : 
 
 Nice-To-Have (C):
