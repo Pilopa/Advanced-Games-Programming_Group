@@ -14,7 +14,8 @@ Should-Be (B):
 
 RB101 : Every implemented requirement must be blackbox-tested with a corresponding test-document(ation).
 RB102 (Requires RA001) : The main menu should contain an "Options Button", which opens the options menu on click. 
-RB103 (Requires RB102) : The volume should be adjustable.
+RB103 : There should be an options menu.
+RB104 : The volume should be adjustable.
 
 Nice-To-Have (C):
 
