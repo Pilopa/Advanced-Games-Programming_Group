@@ -12,6 +12,9 @@ RA009 : The game should have some sort of coolision detection system (eg. The bu
 RA010 : The player must be able to pickup weapons and items
 RA011 : The player must be able to select a weapon to use
 RA012 : The game must have enemies wich are represented as tanks  
+RA013 : There is an UI
+RA014 (Requires RA013) : The UI shows kills done
+RA015 (Requires RA013) : The UI shows player health
 
 Should-Be (B):
 
