@@ -35,3 +35,4 @@ RC201 : The bullet have an explosion effect on impact.
 RC202 : The tank canon should emit a particle effect each time it shoots.
 RC203 : The tracks of the tank emit particle effects while driving.
 RC204 (Requires RA002) : The player can choose their tank / color before the level loads
+RC205 (Requires RB107) : Different tanks have slightly different stats
