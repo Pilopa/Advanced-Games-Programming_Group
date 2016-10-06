@@ -11,6 +11,7 @@ RA008 : The game should have some sort of physics system (eg. The bullet flys in
 RA009 : The game should have some sort of coolision detection system (eg. The bullet collides with enemies and explodes)
 RA010 : The player must be able to pickup weapons and items
 RA011 : The player must be able to select a weapon to use
+RA012 : The game must have enemies wich are represented as tanks  
 
 Should-Be (B):
 
@@ -18,8 +19,11 @@ RB101 : Every implemented requirement must be blackbox-tested with a correspondi
 RB102 (Requires RA001) : The main menu should contain an "Options Button", which opens the options menu on click. 
 RB103 : There should be an options menu.
 RB104 : The volume should be adjustable.
+RB105 (Requires RA012) : The enemies should move around.
+RB106 (Requires RA012) : The enemies should attack the player.
 
 Nice-To-Have (C):
 
 RC201 : The bullet have an explosion effect on impact.
 RC202 : The tank canon should emit a particle effect each time it shoots.
+RC203 : The tracks of the tank emit particle effects while driving.
