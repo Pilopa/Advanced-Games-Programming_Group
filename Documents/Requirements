@@ -28,6 +28,7 @@ RB104 : The volume should be adjustable.
 RB105 (Requires RA012) : The enemies should move around.
 RB106 (Requires RA012) : The enemies should attack the player.
 RB107 : There should be different tank models or textures
+RB108 (Requires RA002) : The player can set the amount of enemies in the game, before the level loads
 
 Nice-To-Have (C):
 
@@ -37,4 +38,5 @@ RC203 : The tracks of the tank emit particle effects while driving.
 RC204 : There are different maps
 RC205 (Requires RA002 & RB107) : The player can choose their tank/color before the level loads
 RC206 (Requires RA002 & RC204) : The player can choose a map to play on before the level loads
-RC208 (Requires RB107) : Different tanks have slightly different stats
+RC207 (Requires RB107) : Different tanks have slightly different stats
+RB208 : The player can set a difficulty for the AI
