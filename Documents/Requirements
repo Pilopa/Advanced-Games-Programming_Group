@@ -34,5 +34,7 @@ Nice-To-Have (C):
 RC201 : The bullet have an explosion effect on impact.
 RC202 : The tank canon should emit a particle effect each time it shoots.
 RC203 : The tracks of the tank emit particle effects while driving.
-RC204 (Requires RA002) : The player can choose their tank / color before the level loads
-RC205 (Requires RB107) : Different tanks have slightly different stats
+RC204 : There are different maps
+RC205 (Requires RA002 & RB107) : The player can choose their tank/color before the level loads
+RC206 (Requires RA002 & RC204) : The player can choose a map to play on before the level loads
+RC208 (Requires RB107) : Different tanks have slightly different stats
