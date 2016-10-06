@@ -10,13 +10,13 @@ RA007 : The Player is able to shoot by pressing Spacebar.
 RA008 : The game should have some sort of physics system (eg. The bullet flys in a realistic way, the Player falls into holes).
 RA009 : The game should have some sort of coolision detection system (eg. The bullet collides with enemies and explodes)
 RA010 : The player must be able to pickup weapons and items
-RA011 : The player must be able to select a weapon to use
+RA011 (Requires RA010) : The player must be able to select a weapon to use
 RA012 : The game must have enemies wich are represented as tanks  
 RA013 : There is an UI
 RA014 (Requires RA013) : The UI shows kills done
 RA015 (Requires RA013) : The UI shows player health
-RA016 (Requires RA013) : The UI shows currently selected and available weapons
-RA017 (Requires RA013) : The UI shows ammunition for the currently selected weapon
+RA016 (Requires RA013 & RA011) : The UI shows currently selected and available weapons
+RA017 (Requires RA013 & RA011) : The UI shows ammunition for the currently selected weapon
 
 Should-Be (B):
 
