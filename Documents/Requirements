@@ -39,4 +39,4 @@ RC204 : There are different maps
 RC205 (Requires RA002 & RB107) : The player can choose their tank/color before the level loads
 RC206 (Requires RA002 & RC204) : The player can choose a map to play on before the level loads
 RC207 (Requires RB107) : Different tanks have slightly different stats
-RB208 : The player can set a difficulty for the AI
+RC208 : The player can set a difficulty for the AI
