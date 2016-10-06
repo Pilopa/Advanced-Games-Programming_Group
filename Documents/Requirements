@@ -9,6 +9,8 @@ RA006 : The Player has to be able to move by using WASD.
 RA007 : The Player is able to shoot by pressing Spacebar. 
 RA008 : The game should have some sort of physics system (eg. The bullet flys in a realistic way, the Player falls into holes).
 RA009 : The game should have some sort of coolision detection system (eg. The bullet collides with enemies and explodes)
+RA010 : The player must be able to pickup weapons and items
+RA011 : The player must be able to select a weapon to use
 
 Should-Be (B):
 
