@@ -15,6 +15,8 @@ RA012 : The game must have enemies wich are represented as tanks
 RA013 : There is an UI
 RA014 (Requires RA013) : The UI shows kills done
 RA015 (Requires RA013) : The UI shows player health
+RA016 (Requires RA013) : The UI shows currently selected and available weapons
+RA017 (Requires RA013) : The UI shows ammunition for the currently selected weapon
 
 Should-Be (B):
 
