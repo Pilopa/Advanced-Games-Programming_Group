@@ -18,6 +18,8 @@ RA015 (Requires RA013) : The UI shows player health
 RA016 (Requires RA013 & RA011) : The UI shows currently selected and available weapons
 RA017 (Requires RA013 & RA011) : The UI shows ammunition for the currently selected weapon
 RA018 : The player can win and loose
+RA019 : The vertical orientation of the canon is controlled via the arrow keys
+RA020 (Requires RA013) : The UI shows the orientation of the canon
 
 Should-Be (B):
 
