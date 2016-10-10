@@ -18,8 +18,7 @@ RA015 (Requires RA013) : The UI shows player health
 RA016 (Requires RA013 & RA011) : The UI shows currently selected and available weapons
 RA017 (Requires RA013 & RA011) : The UI shows ammunition for the currently selected weapon
 RA018 : The player can win and loose
-RA019 : The vertical orientation of the canon is controlled via the arrow keys
-RA020 (Requires RA013) : The UI shows the orientation of the canon
+RA119 : The vertical orientation of the canon is controlled via the arrow keys
 
 Should-Be (B):
 
@@ -31,10 +30,11 @@ RB105 (Requires RA012) : The enemies should move around.
 RB106 (Requires RA012) : The enemies should attack the player.
 RB107 : There should be different tank models or textures
 RB108 (Requires RA002) : The player can set the amount of enemies in the game, before the level loads
+RB110 (Requires RA119) : The play model represents the orientation of the canon
 
 Nice-To-Have (C):
 
-RC201 : The bullet have an explosion effect on impact.
+RC201 : The bullets have an explosion effect on impact.
 RC202 : The tank canon should emit a particle effect each time it shoots.
 RC203 : The tracks of the tank emit particle effects while driving.
 RC204 : There are different maps
@@ -42,3 +42,4 @@ RC205 (Requires RA002 & RB107) : The player can choose their tank/color before t
 RC206 (Requires RA002 & RC204) : The player can choose a map to play on before the level loads
 RC207 (Requires RB107) : Different tanks have slightly different stats
 RC208 : The player can set a difficulty for the AI
+RB209 (Requires RA119) : The UI shows the orientation of the canon
