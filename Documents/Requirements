@@ -19,6 +19,7 @@ RA016 (Requires RA013 & RA011) : The UI shows currently selected and available w
 RA017 (Requires RA013 & RA011) : The UI shows ammunition for the currently selected weapon
 RA018 : The player can win and loose
 RA119 : The vertical orientation of the canon is controlled via the arrow keys
+RA120 : Pressing ESCAPE allows the player to exit the game.
 
 Should-Be (B):
 
@@ -31,6 +32,7 @@ RB106 (Requires RA012) : The enemies should attack the player.
 RB107 : There should be different tank models or textures
 RB108 (Requires RA002) : The player can set the amount of enemies in the game, before the level loads
 RB110 (Requires RA119) : The play model represents the orientation of the canon
+RB111 (Requires RA120) : The player should be prompted before exit.
 
 Nice-To-Have (C):
 
@@ -43,3 +45,4 @@ RC206 (Requires RA002 & RC204) : The player can choose a map to play on before t
 RC207 (Requires RB107) : Different tanks have slightly different stats
 RC208 : The player can set a difficulty for the AI
 RB209 (Requires RA119) : The UI shows the orientation of the canon
+RB210 : Menu items are animated
