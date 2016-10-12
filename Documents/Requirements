@@ -44,6 +44,7 @@ RB110 (Requires RA019) : The play model represents the orientation of the canon
 RB111 (Requires RA020) : The player should be prompted before exit.
 RB112 : There is a skybox/skysphere around the world displaying a simple texture
 RB113 : The player can define the duration of the match before the level loads
+RB114 (Requires RA021) : The respawn is delayed, the time left to respawn display on screen.
 
 Nice-To-Have (C):
 
@@ -59,3 +60,4 @@ RB209 (Requires RA019) : The UI shows the orientation of the canon
 RB210 : Menu items are animated
 RB211 : The tanks take damage depending on where they have been hit (i.e. Hitboxes)
 RB212 : There is an option to let the game generate a semi-random map to play
+RB213 (Requires RA021) : The screen is grayed out while respawning.
