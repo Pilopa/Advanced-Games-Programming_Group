@@ -8,12 +8,12 @@ RA005 : The Player character, represented by a tank, is being displayed on scree
 RA006 : The Player has to be able to move by using WASD.
 RA007 : The Player is able to shoot by pressing Spacebar. 
 RA008 : The game should have some sort of physics system (eg. The bullet flies in a realistic way, the Player falls into holes).
-RA009 : The game should have some sort of coolision detection system (eg. The bullet collides with enemies and explodes)
+RA009 : The game should have some sort of collision detection system (eg. The bullet collides with enemies and explodes)
 RA010 : The player must be able to pickup weapons and items
 RA011 (Requires RA010) : The player must be able to select a weapon to use
 RA012 : The game must have enemies wich are represented as tanks  
 RA013 : There is an UI
-RA014 (Requires RA013) : The UI shows kills done
+RA014 (Requires RA013) : The UI shows the player's points
 RA015 (Requires RA013) : The UI shows player health
 RA016 (Requires RA013 & RA011) : The UI shows currently selected and available weapons
 RA017 (Requires RA013 & RA011) : The UI shows ammunition for the currently selected weapon
@@ -25,6 +25,10 @@ RA022 : Each tank has a basic canon, which has infinite ammunition but does mino
 RA023 : A rocket launcher pickup spawns in specific intervals on the map (randomly or predefined positions) with limited ammunition,
 but high damage and area of impact
 RA024 : A repair pickup spawns in specific intervals on the map (randomly or predefined positions) which restores some of the tanks hitpoints
+RA025 : There is some basic form of lighting, coming from different sources within the world
+RA026 : Each object in the game is textured and the texture is being displayed correctly
+RA027 : The game lasts for a certain amount of time and the player with the most points wins at the end. You gain points by destroying
+opposing tanks and lose points by dying. One cannot have less than 0 points.
 
 Should-Be (B):
 
@@ -38,13 +42,15 @@ RB107 : There should be different tank models or textures
 RB108 (Requires RA002) : The player can set the amount of enemies in the game, before the level loads
 RB110 (Requires RA019) : The play model represents the orientation of the canon
 RB111 (Requires RA020) : The player should be prompted before exit.
+RB112 : There is a skybox/skysphere around the world displaying a simple texture
+RB113 : The player can define the duration of the match before the level loads
 
 Nice-To-Have (C):
 
 RC201 : The bullets have an explosion effect on impact.
 RC202 : The tank canon should emit a particle effect each time it shoots.
 RC203 : The tracks of the tank emit particle effects while driving.
-RC204 : There are different maps
+RC204 : There are different maps to choose from
 RC205 (Requires RA002 & RB107) : The player can choose their tank/color before the level loads
 RC206 (Requires RA002 & RC204) : The player can choose a map to play on before the level loads
 RC207 (Requires RB107) : Different tanks have slightly different stats
@@ -52,3 +58,4 @@ RC208 : The player can set a difficulty for the AI
 RB209 (Requires RA019) : The UI shows the orientation of the canon
 RB210 : Menu items are animated
 RB211 : The tanks take damage depending on where they have been hit (i.e. Hitboxes)
+RB212 : There is an option to let the game generate a semi-random map to play
