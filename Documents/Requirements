@@ -17,9 +17,14 @@ RA014 (Requires RA013) : The UI shows kills done
 RA015 (Requires RA013) : The UI shows player health
 RA016 (Requires RA013 & RA011) : The UI shows currently selected and available weapons
 RA017 (Requires RA013 & RA011) : The UI shows ammunition for the currently selected weapon
-RA018 : The player can win and loose
-RA119 : The vertical orientation of the canon is controlled via the arrow keys
-RA120 : Pressing ESCAPE allows the player to exit the game.
+RA018 : The tanks in the game can take damage
+RA019 : The vertical orientation of the canon is controlled via the arrow keys
+RA020 : Pressing ESCAPE allows the player to exit the game
+RA021 (Requires RA018) : Tanks respawn on a random position (though the locations may be predefined) on death
+RA022 : Each tank has a basic canon, which has infinite ammunition but does minor damage
+RA023 : A rocket launcher pickup spawns in specific intervals on the map (randomly or predefined positions) with limited ammunition,
+but high damage and area of impact
+RA024 : A repair pickup spawns in specific intervals on the map (randomly or predefined positions) which restores some of the tanks hitpoints
 
 Should-Be (B):
 
@@ -31,8 +36,8 @@ RB105 (Requires RA012) : The enemies should move around.
 RB106 (Requires RA012) : The enemies should attack the player.
 RB107 : There should be different tank models or textures
 RB108 (Requires RA002) : The player can set the amount of enemies in the game, before the level loads
-RB110 (Requires RA119) : The play model represents the orientation of the canon
-RB111 (Requires RA120) : The player should be prompted before exit.
+RB110 (Requires RA019) : The play model represents the orientation of the canon
+RB111 (Requires RA020) : The player should be prompted before exit.
 
 Nice-To-Have (C):
 
@@ -44,5 +49,6 @@ RC205 (Requires RA002 & RB107) : The player can choose their tank/color before t
 RC206 (Requires RA002 & RC204) : The player can choose a map to play on before the level loads
 RC207 (Requires RB107) : Different tanks have slightly different stats
 RC208 : The player can set a difficulty for the AI
-RB209 (Requires RA119) : The UI shows the orientation of the canon
+RB209 (Requires RA019) : The UI shows the orientation of the canon
 RB210 : Menu items are animated
+RB211 : The tanks take damage depending on where they have been hit (i.e. Hitboxes)
