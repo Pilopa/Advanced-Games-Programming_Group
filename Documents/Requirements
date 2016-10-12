@@ -56,8 +56,8 @@ RC205 (Requires RA002 & RB107) : The player can choose their tank/color before t
 RC206 (Requires RA002 & RC204) : The player can choose a map to play on before the level loads
 RC207 (Requires RB107) : Different tanks have slightly different stats
 RC208 : The player can set a difficulty for the AI
-RB209 (Requires RA019) : The UI shows the orientation of the canon
-RB210 : Menu items are animated
-RB211 : The tanks take damage depending on where they have been hit (i.e. Hitboxes)
-RB212 : There is an option to let the game generate a semi-random map to play
-RB213 (Requires RA021) : The screen is grayed out while respawning.
+RC209 (Requires RA019) : The UI shows the orientation of the canon
+RC210 : Menu items are animated
+RC211 : The tanks take damage depending on where they have been hit (i.e. Hitboxes)
+RC212 : There is an option to let the game generate a semi-random map to play
+RC213 (Requires RA021) : The screen is grayed out while respawning.
