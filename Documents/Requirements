@@ -29,6 +29,7 @@ RA025 : There is some basic form of lighting, coming from different sources with
 RA026 : Each object in the game is textured and the texture is being displayed correctly
 RA027 : The game lasts for a certain amount of time and the player with the most points wins at the end. You gain points by destroying
 opposing tanks and lose points by dying. One cannot have less than 0 points.
+RA028 : The camera follows the player and is third person. The camera is always facing in the direction of the player model.
 
 Should-Be (B):
 
