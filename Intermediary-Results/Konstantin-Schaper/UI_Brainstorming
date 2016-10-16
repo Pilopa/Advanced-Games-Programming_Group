@@ -1,0 +1,3 @@
+Sadly, the available resources i researched did not give a distinct complete answer to the questions i had regarding GUI design under DirectX 11. Some suggested using a third party library such as CEGUI, GWEN or AntTweakBar. Others went on to implement everything themselves, including a separate rendering queue and possibly even an own thread for the UI.
+
+As it is not certain to this point, whether we are allowed to use third party libraries and the sources about custom implementations are neither complete, nor academically acceptable, i am going to display my own idea of concept for a possible GUI integration. This concept is built up on the ideas of popular game engines as Unity3D.
