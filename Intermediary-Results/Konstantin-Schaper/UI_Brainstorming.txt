@@ -2,4 +2,11 @@ Sadly, the available resources i researched did not give a distinct complete ans
 
 As it is not certain to this point, whether we are allowed to use third party libraries and the sources about custom implementations are neither complete, nor academically acceptable, i am going to display my own idea of concept for a possible GUI integration. This concept is built up on the ideas of popular game engines as Unity3D:
 
-...
+Each GameObject needs a flag which states if the object is a UI Element or not.
+UI components are basically normal GameObjects which are rendered in screen coordinates (Both 2D and 3D UI Elements are possible this way).
+
+The main menu will be a completely own scene (-graph) and all submenus within are just being hidden until relevant (The latter does work for the PauseMenu aswell).
+
+Very good Tutorial on 2DRendering: http://www.rastertek.com/dx11tut11.html
+
+TODO: Add Info about Rendering Sprites and Fonts
