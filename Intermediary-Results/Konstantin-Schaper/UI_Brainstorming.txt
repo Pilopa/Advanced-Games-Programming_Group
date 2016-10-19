@@ -8,5 +8,6 @@ UI components are basically normal GameObjects which are rendered in screen coor
 The main menu will be a completely own scene (-graph) and all submenus within are just being hidden until relevant (The latter does work for the PauseMenu aswell).
 
 Very good Tutorial on 2DRendering: http://www.rastertek.com/dx11tut11.html
+See Lecture 8
 
 TODO: Add Info about Rendering Sprites and Fonts
