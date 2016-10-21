@@ -10,4 +10,16 @@ The main menu will be a completely own scene (-graph) and all submenus within ar
 Very good Tutorial on 2DRendering: http://www.rastertek.com/dx11tut11.html
 See Lecture 8
 
-TODO: Add Info about Rendering Sprites and Fonts
+Beginning DirectX 11 Game Programming, Chapter 3 & 4
+
+Bibliography:
+
+Harvard:
+
+Sherrod, A. and Jones, W. (2011) Beginning DirectX 11 game programming. Boston, MA: Delmar Cengage Learning.
+DirectX 10, DirectX 11, and DirectX 12 tutorials (2016) Available at: http://rastertek.com (Accessed: 21 October 2016).
+
+ACM Siggraph:
+
+Beginning DirectX 11 Game Programming. 2011. Course Technology, Boston.
+RasterTek - DirectX 10, DirectX 11, and DirectX 12 Tutorials. 2016. Rastertek.com. http://rastertek.com.
